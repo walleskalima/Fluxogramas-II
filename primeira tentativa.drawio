@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2023-09-12T00:57:18.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="yUh5m_p0S7JixUK37Vsl" version="21.7.4" type="github">
+  <diagram name="Página-1" id="6OJFohY8rK-hH3m3bg7i">
+    <mxGraphModel dx="825" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3HlrBlEwusMIzVOs72gr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-1" target="3HlrBlEwusMIzVOs72gr-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-1" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-5" target="3HlrBlEwusMIzVOs72gr-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="400" />
+              <mxPoint x="100" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-5" value="&quot;Informe &lt;br&gt;o preço atual do&amp;nbsp; produto: &quot;" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-8" value="float preco_novo" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3HlrBlEwusMIzVOs72gr-26" target="3HlrBlEwusMIzVOs72gr-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-14" target="3HlrBlEwusMIzVOs72gr-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-14" value="float preco_atual" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-23" target="3HlrBlEwusMIzVOs72gr-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-23" value="preco_novo = preco_atual - (preco_atual * 0,09)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-25" target="3HlrBlEwusMIzVOs72gr-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-25" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;Novo preço com&amp;nbsp; &amp;nbsp; desconto de 9%: &quot; preco_novo" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-26" value="&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; preco_atual&lt;/font&gt;" style="shape=manualInput;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-29" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-35" value="exercício 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-37" value="exercício 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-38" target="3HlrBlEwusMIzVOs72gr-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-38" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-41" target="3HlrBlEwusMIzVOs72gr-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-41" value="&lt;font&gt;int horas,&amp;nbsp;&lt;/font&gt;velmedia" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-42" value="float distancia, consumo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3HlrBlEwusMIzVOs72gr-47" target="3HlrBlEwusMIzVOs72gr-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-47" value="&lt;font&gt;&lt;font&gt;&quot;Informe o&lt;/font&gt;&lt;br&gt;tempo&amp;nbsp;&lt;/font&gt;&lt;font&gt;gasto&lt;/font&gt;&lt;br&gt;&lt;font&gt;em horas: &quot;&lt;/font&gt;" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3HlrBlEwusMIzVOs72gr-48" value="&quot;Informe a &lt;br&gt;velocidade &lt;br&gt;média: &quot;" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
