@@ -1,0 +1,75 @@
+1.
+
+#include <stdio.h>
+
+int main() 
+{
+    float preco_atual, preco_novo;
+    
+    printf("Informe o preço atual do produto: ");
+    scanf("%f\n", &preco_atual);
+    
+    preco_novo = preco_atual - (preco_atual * 0.20)
+    
+    printf("Novo preço com desconto de 9%: ");
+    scanf("%f\n", &preco_novo);
+    
+    return 0;
+}
+
+---------------------------
+
+2.
+
+#include <stdio.h>
+
+int main()
+{
+    int horas, velmedia;
+    
+    printf("Informe o tempo gasto em horas: ");
+    scanf("%d\n", &horas);
+    
+    printf("Informe a velocidade média: ");
+    scanf("%d\n", &velmedia);
+    
+    float distancia, consumo;
+    
+    distancia = horas * velmedia
+    
+    consumo = distancia / 12
+    
+    printf("foram gastos ");
+    scanf("%d", &consumo);
+    printf("litros de combustível");
+    
+    return 0;
+}
+
+--------------------------------
+
+5.
+
+#include <stdio.h>
+
+int main()
+{
+    float salario, prestacao, porcent;
+    
+    printf("Informe o valor do salário: ");
+    scanf("%f\n", &salario);
+    
+    printf("Informe o valor da prestação:");
+    scanf("%f\n", &prestacao);
+    
+    porcent = salario * 0.20
+    
+    if(prestacao > porcent)
+        printf("Empréstimo não pode ser concedido");
+        scanf("%f\n", &porcent);
+    else
+        printf("Empréstimo pode ser concedido");
+        scanf("%f\n", &porcent);
+    
+    return 0;    
+}
