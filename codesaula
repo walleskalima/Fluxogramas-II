@@ -1,0 +1,130 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+    float precoatual, preconovo, desconto;
+    
+    printf("Informe o preço atual: ");
+    scanf("%f", &precoatual);
+    
+    desconto = 0.09;
+    preconovo = precoatual - (precoatual * desconto);
+    
+    printf("O novo valor com desconto de 9%% é: ");
+    printf("%.2f", preconovo);
+    
+    return (0);
+}
+
+==========================
+
+#include <stdio.h>
+
+int main()
+{
+    int horas, velmedia;
+    
+    printf("Informe o tempo gasto em horas: ");
+    scanf("%d", &horas);
+    
+    printf("Informe a velocidade média: ");
+    scanf("%d", &velmedia);
+    
+    float distancia, consumo;
+    
+    distancia = horas * velmedia;
+    consumo = distancia / 12;
+    
+    printf("foram gastos ");
+    printf("%.2f", consumo);
+    printf(" litros de combustível.");
+    
+    return 0;
+}
+
+====================================
+
+#include <stdio.h>
+
+int main() {
+	
+	int  numero, resto, metade;
+
+	printf("Informe o número: ");
+	scanf("%d", &numero);
+	
+	if(numero > 20 && numero % 2 == 0){
+		metade = numero / 2;
+		
+		printf("A metade do número é: ");
+		printf("%d", metade);
+	}
+	else {
+		if(numero % 2 != 0){
+			resto = numero % 2;
+			printf("O resto da divisão é: ");
+			printf("%d", resto);
+		}
+	}
+	return 0;
+}
+
+================================
+
+#include <stdio.h>
+
+int main() {
+	
+	int num1, num2, soma, restodiv;
+	
+	printf("Digite o primeiro número: ");
+    scanf("%d", &num1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%d", &num2);
+    
+    soma = num1 + num2;
+    
+    if(soma > 10 && soma % 2 == 0){
+    	printf("%d", soma);
+    	printf("\nPAR");
+	}
+	else {
+		if(soma < 10 && soma % 2 != 0){
+			restodiv = soma % 2;
+			printf("O resto da divisão é: ");
+			printf("%d", restodiv);
+		}
+	}
+	return 0;
+
+}
+
+=======================================
+
+#include <stdio.h>
+
+int main()
+{
+    float salario, prestacao, porcent;
+    
+    printf("Informe o valor do salário: ");
+    scanf("%.2f", &salario);
+    
+    printf("Informe o valor da prestação: ");
+    scanf("%.2f", &prestacao);
+    
+    porcent = salario * 0.20;
+    
+    if(prestacao > porcent){
+        printf("Empréstimo não pode ser concedido");
+        printf("%.2f", porcent);
+	}
+    else {
+        printf("Empréstimo pode ser concedido");
+        printf("%.2f", porcent);
+	}
+    
+    return 0;    
+}
